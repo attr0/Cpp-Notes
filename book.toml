@@ -14,8 +14,8 @@ default-theme = "light"
 preferred-dark-theme = "navy"
 curly-quotes = false
 additional-css = ["css/chinese-patch.css"]
-mathjax-support = true
-copy-fonts = true
+mathjax-support = false
+copy-fonts = false
 git-repository-url = "https://github.com/attr0/Cpp-Notes"
 git-repository-icon = "fa-github"
 
@@ -24,11 +24,11 @@ enable = false
 
 [output.html.fold]
 enable = true
-level = 1
+level = 0
 
 [output.html.playground]
 editable = false
-copyable = false
+copyable = true
 copy-js = false
-line-numbers = true
+line-numbers = false
 runnable = false
