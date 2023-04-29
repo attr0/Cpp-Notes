@@ -1,5 +1,5 @@
 mdbook build
-git add docs -A
-git commit -m "update generated docs"
+git add docs src -A
+git commit -m "update notes & generated docs"
 git push
 pause
