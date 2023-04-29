@@ -2,7 +2,7 @@
 
 
 
-## 整数类型 long long
+## 整数类型 `long long`
 
 > 在C99中正式加入，所以C++98并没有`long long`类型:(
 
@@ -16,7 +16,7 @@ long long x2 = 65535LL << 32;  // x2 为0x10000 0000，正确的
 
 
 
-其最大值最小值在宏和limits类模板中均有定义
+其最大值最小值在宏和`limits`类模板中均有定义
 
 ```c++
 #include <limits>
