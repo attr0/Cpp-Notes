@@ -12,7 +12,8 @@ build-dir = "docs"
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
-curly-quotes = true
+curly-quotes = false
+additional-css = ["css/chinese-patch.css"]
 mathjax-support = true
 copy-fonts = true
 git-repository-url = "https://github.com/attr0/Cpp-Notes"
