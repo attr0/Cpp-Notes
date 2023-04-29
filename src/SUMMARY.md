@@ -1,6 +1,6 @@
 # Summary
 
-[前言](./introduction.md)
+[前言](./introduction/intro.md)
 
 
 # 笔记正文

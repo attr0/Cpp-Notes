@@ -25,7 +25,8 @@ long long x2 = 65535LL << 32;  // x2 为0x10000 0000，正确的
 std::cout << LLONG_MAX <<　'\t' << LLONG_MIN << '\n';
 std::cout << ULLONG_MAX << '\n';
 // limits
-std::cout << std::numeric_limits<long long>::max() << '\t'std::numeric_limits<long long>::min() << '\n';
+std::cout << std::numeric_limits<long long>::max() << '\t' 
+    	  << std::numeric_limits<long long>::min() << '\n';
 ```
 
 

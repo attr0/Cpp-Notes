@@ -4,7 +4,7 @@
 
 - *[《现代C++ 语言核心特性解析》](https://www.epubit.com/bookDetails?id=UB77e5a81975b11)谢丙堃，2021* 读书笔记
 
-  <img src="./assets/book_cover.png" alt="book_cover" style="zoom:33%;" />
+  <img src="/introduction/book_cover.png" alt="book_cover" style="zoom:33%;" />
 
 
 

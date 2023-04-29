@@ -82,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item affix "><a href="../introduction.html">前言</a></li><li class="chapter-item affix "><li class="part-title">笔记正文</li><li class="chapter-item expanded "><a href="../chapter1/intro.html" class="active"><strong aria-hidden="true">1.</strong> 新基础类型</a></li><li class="chapter-item "><a href="../chapter2/intro.html"><strong aria-hidden="true">2.</strong> 内联和嵌套命名空间</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../chapter2/section1.html"><strong aria-hidden="true">2.1.</strong> 内联命名空间的定义和使用</a></li><li class="chapter-item "><a href="../chapter2/section2.html"><strong aria-hidden="true">2.2.</strong> 嵌套命名空间的简化语法</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item affix "><a href="../introduction/intro.html">前言</a></li><li class="chapter-item affix "><li class="part-title">笔记正文</li><li class="chapter-item expanded "><a href="../chapter1/intro.html" class="active"><strong aria-hidden="true">1.</strong> 新基础类型</a></li><li class="chapter-item "><a href="../chapter2/intro.html"><strong aria-hidden="true">2.</strong> 内联和嵌套命名空间</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../chapter2/section1.html"><strong aria-hidden="true">2.1.</strong> 内联命名空间的定义和使用</a></li><li class="chapter-item "><a href="../chapter2/section2.html"><strong aria-hidden="true">2.2.</strong> 嵌套命名空间的简化语法</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -160,7 +160,8 @@ long long x2 = 65535LL &lt;&lt; 32;  // x2 为0x10000 0000，正确的
 std::cout &lt;&lt; LLONG_MAX &lt;&lt;　'\t' &lt;&lt; LLONG_MIN &lt;&lt; '\n';
 std::cout &lt;&lt; ULLONG_MAX &lt;&lt; '\n';
 // limits
-std::cout &lt;&lt; std::numeric_limits&lt;long long&gt;::max() &lt;&lt; '\t'std::numeric_limits&lt;long long&gt;::min() &lt;&lt; '\n';
+std::cout &lt;&lt; std::numeric_limits&lt;long long&gt;::max() &lt;&lt; '\t' 
+    	  &lt;&lt; std::numeric_limits&lt;long long&gt;::min() &lt;&lt; '\n';
 </code></pre>
 <p>格式化时，请用<code>%lld</code>和<code>%llu</code>，但推荐使用C++流来处理</p>
 <h2 id="新的字符类型-char16_t-和-char32_t"><a class="header" href="#新的字符类型-char16_t-和-char32_t">新的字符类型 <code>char16_t</code> 和 <code>char32_t</code></a></h2>
@@ -169,7 +170,7 @@ std::cout &lt;&lt; std::numeric_limits&lt;long long&gt;::max() &lt;&lt; '\t'std:
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../introduction.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../introduction/intro.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
@@ -183,7 +184,7 @@ std::cout &lt;&lt; std::numeric_limits&lt;long long&gt;::max() &lt;&lt; '\t'std:
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../introduction.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../introduction/intro.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
